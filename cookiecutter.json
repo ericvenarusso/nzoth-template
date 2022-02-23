@@ -1,0 +1,6 @@
+{
+    "name": "{{ cookiecutter.name }}", 
+    "version": "{{ cookiecutter.version }}",
+    "description": "{{ cookiecutter.description }}",
+    "dependencies": {"nzoth": "0.1.0"}
+}

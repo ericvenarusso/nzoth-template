@@ -1,0 +1,8 @@
+# Nzoth Dependencies
+fastapi==0.68.1
+uvicorn==0.15.0
+
+#User Dependencies
+{%- for package, version in cookiecutter.dependencies.items() %}
+{{ package }}=={{ version }}
+{%- endfor %}
